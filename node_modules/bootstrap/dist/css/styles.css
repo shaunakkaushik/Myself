@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.navbar{
+    background-color: white;
+    height: 70px;
+}
+@media (min-width: 993px)
+{
+.navbar .navbar-brand {
+    display: none;
+} 
+.navbar hr{
+    display: none;
+}  
+.navbar .navbar-collapse .navbar-nav{
+   margin-left: auto;
+   margin-right: auto;
+}
+}
+@media (max-width: 992px){
+    .navbar{
+        border-bottom: 1px solid #3399ff;
+    }
+    #navbarSupportedContent{ 
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        top: 70px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 10px;
+        padding: 0px;
+        left: 0px;
+     }
+     #navbarBrand{
+        margin-left: 0;
+     }
+     #contact{
+         margin-bottom: 10px;
+     }
+}
+.navbar .navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    margin-left: auto;
+    margin-right: auto;
+    color: #3399ff;
+    /* letter-spacing: 1px;  */
+}
+.navbar-toggler{
+    border: 2px solid;
+}
+#navbarBrand{
+    color: #3399ff;
+}
+.navbar-light .nav-item .nav-link{
+    color: #3399ff;
+    font-size: 1.4em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+}
+.navbar-light .nav-item .nav-link:hover{
+    color: white;
+    background-color: #3399ff;
+} 
+/* /////////////////////////////INTRO ////////////////////////////////////////////// */
+
+.intro{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 70px;
+    background-image: url("background.jpg");
+    height: 100vh;
+    color:  white;
+}
+.intro span{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    text-align: center  ;
+    font-family: 'Roboto', sans-serif;
+}
+/* ///////////////PROFILE ////////////////////////////////////////////////////// */
+.hey1 hr{
+    border-color: white;
+    width: 50%;
+}
+#profile{
+    width: 100%;
+    position: relative;
+    background-color: #05386b;
+    padding-bottom: 50px;
+}   
+#profileHeading,#basic{
+    text-align: center;
+    color: white;
+}
+#profile hr{
+    background-color: white;
+}
+#profileHeading{
+    color: white;
+    padding-top: 70px;
+}
+#basic{
+    padding: 50px;
+    color: bisque;
+}
+#profile img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid white;
+    padding: 10px;
+}
+#me{
+    padding-top: 50px;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#about{
+    color: bisque;
+    padding: 20px;
+    font-size: 1.2em;
+}
+#mainProfile{
+    color: bisque;
+    padding: 20px;
+    font-size: 1.2em;
+    line-height: 50px;
+}
+#quote{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    color: bisque;
+}
+/* /////////////////////////////EDUCATION//////////////////////////// */
+#edusectitle{
+   text-align: center;
+   color: #3399ff;
+}
+#education hr{
+    background-color: black;
+    margin-bottom: 50px;
+}
+#education{
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+#eduTitle{
+    text-align: center;
+    color: black;
+}
+.school,.highSchool,.university{
+    padding: 30px;
+}
+#eduTitle{
+    color: teal;
+}
+/* //////////////////////////////INTERESTS/////////////////////////// */
+#interests{
+    width: 100%;
+    position: relative;
+    background-image: url("background1.jpg");
+    color: white;
+    text-align: center;
+    padding-bottom: 80px;
+    /* background-repeat: no-repeat; */
+}
+#interestheading{
+    padding-top: 90px;
+    padding-bottom: 30px;
+    font-size: 2.5em;
+    text-align: center;
+}
+#interests p{
+    font-size: 1.5em;
+}
+#interests q{
+    font-size:1.2em;
+}
+#interests img{
+    width: 100%;
+    height: 100%; 
+}
+#quote{
+    padding: 50px;
+}
+.imagehandle{
+    position: relative;
+    margin: 2.5%;
+}
+.interestdes {
+font-size: 1.3em;
+letter-spacing: 2px;
+width: 100%;
+position: absolute;
+bottom:0;
+padding: 5px;
+background-color: rgba(0,0,0,0.6);
+}
+/* ///////////////////////// CONTACT/////////////////////////////// */
+#contactdiv{
+    text-align: center; 
+    padding-top: 90px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+footer{
+    position: relative;
+    width: 100%;
+}
+.where{
+    padding-top: 50px;
+    line-height: 200%;
+}
+.where p{
+    color: bisque;
+    font-size: 1.3em;
+}
+.where hr{
+    background-color: bisque;
+}
+#whereHeading, #whereContent{
+    padding: 30px;
+}
+#contactdiv hr{
+  background-color: bisque;
+}
+.social a{
+    text-decoration: none;
+    color: white;
+}
+@media (min-width: 577px){
+.social{
+    font-size: 2.5em;
+    letter-spacing: 30px;
+    padding-top: 70px ;
+    padding-bottom: 50px;
+}
+}
+@media (max-width: 576px){
+    .social{
+        font-size: 1.6em;
+        letter-spacing: 15px;
+        padding-top: 70px ;
+        padding-bottom: 50px;
+    }
+}
